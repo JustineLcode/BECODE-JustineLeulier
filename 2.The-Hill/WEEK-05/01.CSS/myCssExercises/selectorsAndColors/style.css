@@ -1,0 +1,17 @@
+body{
+    background-color: hsl(39, 6, 83)
+}
+h1 {
+    color: rgb(12, 37, 134);
+}
+span {
+    color: #d69e36;
+}
+
+Make the anchor tags of the first level of the menu the color 134, 12, 110 (rgb).
+Tip : you will need to select the a  direct descendent of the li that are direct descent of the menu
+Make the color of the spans inside the anchor tags of the first level of the menu "red".
+Make the dropdown background color 39, 21%, 73% (hsl)
+Make the color of the spans inside the anchor tags of the second level of the menu 14, 86, 96 (rgb)
+Make the second li element of the second level of the menu background color purple (NO pseudo selectors !!!!!)
+Make all elements inside the content class dark cyan (use the VS Code color picker) in one only declaration
