@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(52,52,52);
+    color: white
+}
+body {
+    font-family: "Open Sans", sans-serif;
+}
+h1 {
+    background-color : rgb(99, 95, 95);
+    text-align: center;
+    padding: 30px;
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    border-bottom: 1px solid white;
+}
+h1 > span {
+    background-color : rgb(99, 95, 95);
+    text-align: center;
+    font-weight: bold;
+    color: #ffb30e;
+}
+p {
+    margin-top: 50px;
+    max-width: 500px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    font-style: italic;
+    text-transform: uppercase;
+}
+p > span{
+font-weight: 700;
+color:#ffb30e;
+}
+
+a {
+    margin-top: 50px;
+    color: black;
+    background-color: #ffaf03;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+a:hover{
+    background-color: #fbca62;
+}
